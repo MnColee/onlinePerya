@@ -74,8 +74,11 @@
                                 <div class="bg-input w-full py-7 px-8"></div>
                             </div>
                             <div class="w-full flex items-center justify-center">
-                                <button class="bg-primary text-white rounded-lg py-3 px-8 text-base w-full sm:w-3/5 lg:text-lg xl:text-xl" >Upload</button>
-                            </div>
+                                <label for="upload-id" class="bg-primary cursor-pointer text-white rounded-lg py-3 px-8 text-base text-center w-full sm:w-3/5 lg:text-lg xl:text-xl">
+                                    Upload
+                                    <input id="upload-id" type="file" class="hidden" />
+                                </label>
+                            </div> 
                         </form>
 
                     </div>

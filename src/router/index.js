@@ -16,6 +16,7 @@ import WithdrawView from '../pages/WithdrawView.vue'
 import HistoryView from '../pages/HistoryView.vue'
 import SettingsView from '../pages/SettingsView.vue'
 import ChangePassView from '../pages/ChangePassView.vue'
+import ReferralView from '../pages/ReferralView.vue'
 
 
 const router = createRouter({
@@ -120,6 +121,14 @@ const router = createRouter({
       path: '/homes/changepassword',
       name: 'ChangePassView',
       component: ChangePassView,
+      meta: {
+        hideNavbar: true,
+      }
+    },
+    {
+      path: '/homes/referral',
+      name: 'ReferralView',
+      component: ReferralView,
       meta: {
         hideNavbar: true,
       }

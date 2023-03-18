@@ -75,12 +75,12 @@
                         <p class="text-center font-bold text-black text-xs lg:text-sm">Change Password</p>
                     </span>
                 </RouterLink>
-                <div class="bg-walletCard hover:scale-110 transition-all duration-300 cursor-pointer w-full rounded-xl py-2 overflow-hidden relative flex items-center justify-center">
+                <RouterLink :to="{ name: 'ReferralView' }" class="bg-walletCard hover:scale-110 transition-all duration-300 cursor-pointer w-full rounded-xl py-2 overflow-hidden relative flex items-center justify-center">
                     <span class="flex items-center gap-x-2">
                         <img src="/img/Invite.png" alt="" class="h-4 lg:h-5">
                         <p class="text-center font-bold text-black text-xs lg:text-sm">Referrals / Invite</p>
                     </span>
-                </div>
+                </RouterLink>
                 <div class="bg-walletCard hover:scale-110 transition-all duration-300 cursor-pointer w-full rounded-xl py-2 overflow-hidden relative flex items-center justify-center">
                     <span class="flex items-center gap-x-2">
                         <img src="/img/Logoutv2.png" alt="" class="h-4 lg:h-5">
